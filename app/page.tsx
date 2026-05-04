@@ -595,6 +595,75 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Comparison Table Section */}
+      <section id="comparison" className="py-24 bg-gradient-to-b from-white via-secondary/5 to-white relative overflow-hidden">
+        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-16">
+            <span className="inline-block px-4 py-2 bg-secondary/10 rounded-full text-secondary font-semibold text-sm mb-4">Vergleich</span>
+            <h2 className="text-4xl md:text-5xl font-bold text-secondary mb-4">Produktvergleich</h2>
+            <p className="text-xl text-gray-600 max-w-2xl mx-auto">Wählen Sie das richtige Produkt für Ihre Bedürfnisse.</p>
+          </div>
+          
+          <div className="bg-white rounded-3xl shadow-2xl overflow-hidden border-2 border-gray-100">
+            <table className="w-full">
+              <thead className="bg-gradient-to-r from-secondary to-secondary/90">
+                <tr>
+                  <th className="px-8 py-6 text-left text-white font-bold text-lg">Eigenschaft</th>
+                  <th className="px-8 py-6 text-center text-white font-bold text-lg">Fliegengitter</th>
+                  <th className="px-8 py-6 text-center text-white font-bold text-lg">Plissee</th>
+                  <th className="px-8 py-6 text-center text-white font-bold text-lg">Jalousien</th>
+                  <th className="px-8 py-6 text-center text-white font-bold text-lg">Zip Rollos</th>
+                </tr>
+              </thead>
+              <tbody className="divide-y divide-gray-100">
+                <tr className="hover:bg-gray-50 transition-colors">
+                  <td className="px-8 py-6 font-semibold text-secondary">Insektenschutz</td>
+                  <td className="px-8 py-6 text-center">✓ ✓ ✓</td>
+                  <td className="px-8 py-6 text-center">✓ ✓</td>
+                  <td className="px-8 py-6 text-center">✓</td>
+                  <td className="px-8 py-6 text-center">✓ ✓ ✓</td>
+                </tr>
+                <tr className="hover:bg-gray-50 transition-colors">
+                  <td className="px-8 py-6 font-semibold text-secondary">Sichtschutz</td>
+                  <td className="px-8 py-6 text-center">✓</td>
+                  <td className="px-8 py-6 text-center">✓ ✓ ✓</td>
+                  <td className="px-8 py-6 text-center">✓ ✓ ✓</td>
+                  <td className="px-8 py-6 text-center">✓ ✓</td>
+                </tr>
+                <tr className="hover:bg-gray-50 transition-colors">
+                  <td className="px-8 py-6 font-semibold text-secondary">Lichtsteuerung</td>
+                  <td className="px-8 py-6 text-center">-</td>
+                  <td className="px-8 py-6 text-center">✓ ✓ ✓</td>
+                  <td className="px-8 py-6 text-center">✓ ✓ ✓</td>
+                  <td className="px-8 py-6 text-center">✓ ✓</td>
+                </tr>
+                <tr className="hover:bg-gray-50 transition-colors">
+                  <td className="px-8 py-6 font-semibold text-secondary">Wetterfestigkeit</td>
+                  <td className="px-8 py-6 text-center">✓ ✓ ✓</td>
+                  <td className="px-8 py-6 text-center">✓ ✓</td>
+                  <td className="px-8 py-6 text-center">✓ ✓ ✓</td>
+                  <td className="px-8 py-6 text-center">✓ ✓ ✓</td>
+                </tr>
+                <tr className="hover:bg-gray-50 transition-colors">
+                  <td className="px-8 py-6 font-semibold text-secondary">Pflegeleicht</td>
+                  <td className="px-8 py-6 text-center">✓ ✓ ✓</td>
+                  <td className="px-8 py-6 text-center">✓ ✓</td>
+                  <td className="px-8 py-6 text-center">✓ ✓</td>
+                  <td className="px-8 py-6 text-center">✓ ✓</td>
+                </tr>
+                <tr className="hover:bg-gray-50 transition-colors">
+                  <td className="px-8 py-6 font-semibold text-secondary">Preis-Leistung</td>
+                  <td className="px-8 py-6 text-center">✓ ✓ ✓</td>
+                  <td className="px-8 py-6 text-center">✓ ✓</td>
+                  <td className="px-8 py-6 text-center">✓ ✓</td>
+                  <td className="px-8 py-6 text-center">✓</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+
       {/* FAQ Section */}
       <section id="contact" className="py-24 bg-gradient-to-b from-white via-primary/5 to-white relative overflow-hidden">
         <div className="relative max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
