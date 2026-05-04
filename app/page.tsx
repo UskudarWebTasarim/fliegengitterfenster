@@ -40,7 +40,7 @@ export default function Home() {
           <div className="grid lg:grid-cols-2 gap-16 items-center">
             <div className="space-y-8">
               <div className="inline-block px-4 py-2 bg-primary/10 rounded-full">
-                <span className="text-primary font-semibold text-sm">✨ Österreichs Premium Insektenschutz</span>
+                <span className="text-primary font-semibold text-sm">Österreichs Premium Insektenschutz</span>
               </div>
               <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold text-secondary leading-tight">
                 {t.hero.title.split('-').map((part, i) => (
@@ -138,26 +138,38 @@ export default function Home() {
           
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
             {[
-              { name: t.products.flyscreen, icon: '🪟', desc: 'Spannrahmen für Fenster', color: 'from-primary/20 to-primary/5' },
-              { name: t.products.plissee, icon: '🎯', desc: 'Plissee Insektenschutz', color: 'from-secondary/20 to-secondary/5' },
-              { name: t.products.plisseeCurtain, icon: '📱', desc: 'Plissee Vorhänge', color: 'from-primary/20 to-primary/5' },
-              { name: t.products.blinds, icon: '🏠', desc: 'Jalousien', color: 'from-secondary/20 to-secondary/5' },
-              { name: t.products.honeycomb, icon: '🔲', desc: 'Honeycomb Vorhänge', color: 'from-primary/20 to-primary/5' },
-              { name: t.products.duette, icon: '📐', desc: 'Düette Vorhänge', color: 'from-secondary/20 to-secondary/5' },
-              { name: t.products.zip, icon: '⚡', desc: 'Zip Rollos', color: 'from-primary/20 to-primary/5' },
-              { name: 'Schiebetüren', icon: '🚪', desc: 'Schiebetür Insektenschutz', color: 'from-secondary/20 to-secondary/5' },
-            ].map((product, index) => (
+              { name: t.products.flyscreen, icon: 'window', desc: 'Spannrahmen für Fenster', color: 'from-primary/20 to-primary/5' },
+              { name: t.products.plissee, icon: 'plissee', desc: 'Plissee Insektenschutz', color: 'from-secondary/20 to-secondary/5' },
+              { name: t.products.plisseeCurtain, icon: 'curtain', desc: 'Plissee Vorhänge', color: 'from-primary/20 to-primary/5' },
+              { name: t.products.blinds, icon: 'blinds', desc: 'Jalousien', color: 'from-secondary/20 to-secondary/5' },
+              { name: t.products.honeycomb, icon: 'honeycomb', desc: 'Honeycomb Vorhänge', color: 'from-primary/20 to-primary/5' },
+              { name: t.products.duette, icon: 'duette', desc: 'Düette Vorhänge', color: 'from-secondary/20 to-secondary/5' },
+              { name: t.products.zip, icon: 'zip', desc: 'Zip Rollos', color: 'from-primary/20 to-primary/5' },
+              { name: 'Schiebetüren', icon: 'door', desc: 'Schiebetür Insektenschutz', color: 'from-secondary/20 to-secondary/5' },
+            ].map((product, index) => {
+              const icons: Record<string, JSX.Element> = {
+                window: <svg className="w-8 h-8 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6" /></svg>,
+                plissee: <svg className="w-8 h-8 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 5a1 1 0 011-1h14a1 1 0 011 1v2a1 1 0 01-1 1H5a1 1 0 01-1-1V5zM4 13a1 1 0 011-1h6a1 1 0 011 1v6a1 1 0 01-1 1H5a1 1 0 01-1-1v-6zM16 13a1 1 0 011-1h2a1 1 0 011 1v6a1 1 0 01-1 1h-2a1 1 0 01-1-1v-6z" /></svg>,
+                curtain: <svg className="w-8 h-8 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" /></svg>,
+                blinds: <svg className="w-8 h-8 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" /></svg>,
+                honeycomb: <svg className="w-8 h-8 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 2l3 6-3 6-3-6 3-6z M3 8l3 6-3 6-3-6 3-6z M21 8l3 6-3 6-3-6 3-6z" /></svg>,
+                duette: <svg className="w-8 h-8 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16v12H4z" /></svg>,
+                zip: <svg className="w-8 h-8 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 2l2 4-2 4-2-4 2-4z" /></svg>,
+                door: <svg className="w-8 h-8 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 9l4-4 4 4m0 6l-4 4-4-4" /></svg>,
+              };
+              return (
               <a
                 key={index}
                 href="#"
                 className={`group relative bg-gradient-to-br ${product.color} rounded-2xl p-8 transition-all hover:shadow-2xl hover:-translate-y-2 border border-transparent hover:border-primary`}
               >
-                <div className="text-5xl mb-4 transform group-hover:scale-110 transition-transform">{product.icon}</div>
+                <div className="mb-4 transform group-hover:scale-110 transition-transform">{icons[product.icon]}</div>
                 <h3 className="text-lg font-bold text-secondary mb-2 group-hover:text-primary transition-colors">{product.name}</h3>
                 <p className="text-gray-600 text-sm">{product.desc}</p>
                 <div className="absolute top-4 right-4 w-2 h-2 bg-primary rounded-full opacity-0 group-hover:opacity-100 transition-opacity"></div>
               </a>
-            ))}
+              );
+            })}
           </div>
         </div>
       </section>
@@ -177,19 +189,19 @@ export default function Home() {
               <p className="text-xl text-gray-200 leading-relaxed">{t.about.description}</p>
               <div className="grid grid-cols-2 gap-6">
                 <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-6 border border-white/20">
-                  <div className="text-4xl font-bold text-primary mb-2">{t.about.experience}</div>
+                  <div className="text-3xl font-bold text-primary mb-2">{t.about.experience}</div>
                   <div className="text-gray-300 text-sm">Erfahrung</div>
                 </div>
                 <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-6 border border-white/20">
-                  <div className="text-4xl font-bold text-primary mb-2">{t.about.countries}</div>
+                  <div className="text-3xl font-bold text-primary mb-2">{t.about.countries}</div>
                   <div className="text-gray-300 text-sm">Länder</div>
                 </div>
                 <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-6 border border-white/20">
-                  <div className="text-4xl font-bold text-primary mb-2">{t.about.quality}</div>
+                  <div className="text-3xl font-bold text-primary mb-2">{t.about.quality}</div>
                   <div className="text-gray-300 text-sm">Qualität</div>
                 </div>
                 <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-6 border border-white/20">
-                  <div className="text-4xl font-bold text-primary mb-2">{t.about.support}</div>
+                  <div className="text-3xl font-bold text-primary mb-2">{t.about.support}</div>
                   <div className="text-gray-300 text-sm">Service</div>
                 </div>
               </div>
