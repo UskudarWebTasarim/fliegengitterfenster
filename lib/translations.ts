@@ -215,9 +215,9 @@ export const translations: Record<Language, Translations> = {
       title: 'Zielmärkte',
       subtitle: 'Präsenz in ganz Europa. Wir liefern in 6 europäische Länder.',
       markets: [
-        { country: '🇦🇹 AT', cities: 'Wien, Graz, Linz' },
-        { country: '🇩🇪 DE', cities: 'München, Berlin, Hamburg' },
-        { country: '🇳🇱 NL', cities: 'Amsterdam, Rotterdam' },
+        { country: '🇦🇹', cities: 'Wien, Graz, Linz' },
+        { country: '🇩🇪', cities: 'München, Berlin, Hamburg' },
+        { country: '🇳🇱', cities: 'Amsterdam, Rotterdam' },
       ],
     },
     serviceAreas: {
@@ -382,9 +382,9 @@ export const translations: Record<Language, Translations> = {
       title: 'Hedef Pazarlar',
       subtitle: 'Tüm Avrupa\'da varlık. 6 Avrupa ülkesine teslimat yapıyoruz.',
       markets: [
-        { country: '🇦🇹 AT', cities: 'Viyana, Graz, Linz' },
-        { country: '🇩🇪 DE', cities: 'Münih, Berlin, Hamburg' },
-        { country: '🇳🇱 NL', cities: 'Amsterdam, Rotterdam' },
+        { country: '🇦🇹', cities: 'Viyana, Graz, Linz' },
+        { country: '🇩🇪', cities: 'Münih, Berlin, Hamburg' },
+        { country: '🇳🇱', cities: 'Amsterdam, Rotterdam' },
       ],
     },
     serviceAreas: {
