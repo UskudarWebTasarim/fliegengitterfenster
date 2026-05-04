@@ -117,12 +117,12 @@ export const translations: Record<Language, Translations> = {
     },
     hero: {
       title: 'Fliegengitter Fenster - Qualität & Meisterschaft',
-      subtitle: 'Maßgefertigte Fliegengitter und Insektenschutzlösungen für Ihr Zuhause. Höchste Qualität aus Österreich mit professioneller Montage. Österreich Fliegengitter und Insektenschutz Experte.',
+      subtitle: 'Maßgefertigte Insektenschutzlösungen für Fenster, Türen, Balkone und Terrassen. Premium Qualität aus EU-Produktion mit professioneller Montage in ganz Österreich und Europa. Österreich Fliegengitter und Insektenschutz Experte. Schützen Sie Ihr Zuhause effektiv vor Insekten und genießen Sie frische Luft ohne Störungen.',
       cta: 'Kostenloses Angebot Anfordern',
     },
     products: {
       title: 'Unsere Produkte',
-      subtitle: 'Hochwertige Insektenschutzlösungen für jeden Bedarf. Von einfachen Fliegengittern bis zu fortschrittlichen Rollosystemen - wir haben die passende Lösung für Ihr Zuhause. Österreich Fliegengitter, Plissee, Jalousien und Zip Rollos für Fenster, Türen, Balkone und Terrassen.',
+      subtitle: 'Hochwertige Insektenschutzlösungen für jeden Bedarf. Von einfachen Fliegengittern bis zu fortschrittlichen Rollosystemen - wir haben die passende Lösung für Ihr Zuhause. Österreich Fliegengitter, Plissee, Jalousien und Zip Rollos für Fenster, Türen, Balkone und Terrassen. Maßgefertigte Lösungen nach Ihren genauen Maßen für perfekte Passform. Wetterfest, langlebig und pflegeleicht für jahrelange Nutzung.',
       flyscreen: 'Fliegengitter',
       plissee: 'Plissee',
       plisseeCurtain: 'Plissee Vorhänge',
@@ -133,7 +133,7 @@ export const translations: Record<Language, Translations> = {
     },
     about: {
       title: 'Warum Wir?',
-      description: 'Mit über 15 Jahren Erfahrung in der Branche sind wir Ihr vertrauenswürdiger Partner für Insektenschutzlösungen in Österreich und ganz Europa. Österreich Fliegengitter und Plissee Experte. Maßgefertigte Lösungen für Fenster, Türen, Balkone und Terrassen. Premium Qualität aus EU-Produktion mit professioneller Montage.',
+      description: 'Mit über 15 Jahren Erfahrung in der Branche sind wir Ihr vertrauenswürdiger Partner für Insektenschutzlösungen in Österreich und ganz Europa. Österreich Fliegengitter und Plissee Experte. Maßgefertigte Lösungen für Fenster, Türen, Balkone und Terrassen. Premium Qualität aus EU-Produktion mit professioneller Montage. Wir bieten kostenlose Beratung, kostenlose Messung und umfassende Garantie. Unser erfahrenes Team steht Ihnen rund um die Uhr zur Verfügung.',
       experience: '15+ Jahre Erfahrung',
       countries: '6+ Länder',
       quality: 'Premium Qualität',
@@ -154,7 +154,7 @@ export const translations: Record<Language, Translations> = {
     },
     process: {
       title: 'So Geht Es',
-      subtitle: 'Einfacher Prozess von Anfrage bis Montage. In nur 4 einfachen Schritten zu Ihrem perfekten Insektenschutz.',
+      subtitle: 'Einfacher Prozess von Anfrage bis Montage. In nur 4 einfachen Schritten zu Ihrem perfekten Insektenschutz. Wir übernehmen alles von der Messung bis zur Installation. Kostenlose Beratung vor Ort, transparente Preisgestaltung, schnelle Lieferung und professionelle Montage durch erfahrenes Team.',
       steps: [
         { title: '1', desc: 'Anfrage senden' },
         { title: '2', desc: 'Angebot erhalten' },
@@ -164,17 +164,17 @@ export const translations: Record<Language, Translations> = {
     },
     features: {
       title: 'Eigenschaften',
-      subtitle: 'Was uns von anderen unterscheidet. Langlebige Materialien, einfache Installation und wetterfeste Konstruktion.',
+      subtitle: 'Was uns von anderen unterscheidet. Langlebige Materialien, einfache Installation und wetterfeste Konstruktion. Unsere Produkte werden aus hochwertigen EU-Materialien hergestellt und sind für den ganzjährigen Einsatz geeignet. Pflegeleicht, wartungsarm und mit umfassender Garantie für Ihre Sicherheit.',
       items: [
-        { title: 'Langlebig', desc: 'Hochwertige Materialien für jahrelange Nutzung' },
-        { title: 'Einfach', desc: 'Leichte Montage ohne Werkzeug' },
-        { title: 'Wetterfest', desc: 'Für alle Jahreszeiten geeignet' },
-        { title: 'Pflegeleicht', desc: 'Einfach zu reinigen und zu warten' },
+        { title: 'Hochwertige Materialien', desc: 'EU-Produktion für maximale Langlebigkeit und Zuverlässigkeit' },
+        { title: 'Wetterfest', desc: 'Für alle Witterungsbedingungen geeignet, ganzjähriger Einsatz' },
+        { title: 'Pflegeleicht', desc: 'Einfache Reinigung und minimale Wartung für langanhaltende Schönheit' },
+        { title: 'Langlebig', desc: 'Robuste Konstruktion für jahrelange Nutzung ohne Qualitätsverlust' },
       ],
     },
     quality: {
       title: 'Materialien & Qualität',
-      description: 'Wir verwenden nur hochwertige Materialien für beste Ergebnisse. Aluminium, Fiberglas und Edelstahl nach EU-Standards.',
+      description: 'Wir verwenden nur hochwertige Materialien für beste Ergebnisse. Aluminium, Fiberglas und Edelstahl nach EU-Standards. Alle Materialien werden in der EU hergestellt und erfüllen die strengsten Qualitätsstandards. Langlebig, wetterfest und pflegeleicht für jahrelange Nutzung. Umfassende Garantie auf alle Materialien für Ihre Sicherheit.',
       table: {
         headers: ['Material', 'Eigenschaft', 'Garantie'],
         rows: [
@@ -185,22 +185,21 @@ export const translations: Record<Language, Translations> = {
       },
     },
     examples: {
-      title: 'Anwendungen',
-      subtitle: 'Vielseitige Lösungen für jede Situation. Von Privathäusern bis zu gewerblichen Gebäuden.',
+      title: 'Einsatzbereiche',
+      subtitle: 'Vielseitige Lösungen für verschiedene Anwendungen. Von Wohnhäusern bis zu gewerblichen Gebäuden - wir haben die passende Lösung. Ideal für Fenster, Türen, Balkone, Terrassen und Wintergärten. Perfekt für Wohnhäuser, Apartments, Büros, Hotels und Restaurants. Maßgefertigt nach Ihren spezifischen Anforderungen.',
       items: [
-        { title: 'Privathäuser', desc: 'Schutz für Ihr Zuhause' },
-        { title: 'Bürogebäude', desc: 'Komfortables Arbeiten' },
-        { title: 'Hotels', desc: 'Gästezufriedenheit' },
-        { title: 'Restaurants', desc: 'Hygiene & Komfort' },
+        { title: 'Wohnhäuser', desc: 'Schutz für Familien mit Kindern und Haustieren' },
+        { title: 'Büros', desc: 'Professioneller Insektenschutz für Arbeitsplätze' },
+        { title: 'Hotels', desc: 'Komfortable Lösungen für Gäste' },
       ],
     },
     testimonials: {
       title: 'Kundenstimmen',
-      subtitle: 'Was unsere Kunden über uns sagen. Echte Erfahrungen von echten Kunden.',
+      subtitle: 'Was unsere Kunden über uns sagen. Echte Erfahrungen von echten Kunden aus ganz Österreich und Europa. Über 10.000 zufriedene Kunden vertrauen auf unsere Qualität und unseren Service. Lesen Sie, was unsere Kunden über unsere Produkte und unseren Kundenservice sagen.',
       items: [
-        { name: 'Maria M.', city: 'Wien', text: 'Ausgezeichnete Qualität!' },
-        { name: 'Thomas K.', city: 'Graz', text: 'Schnelle Lieferung.' },
-        { name: 'Anna S.', city: 'Linz', text: 'Professioneller Service.' },
+        { name: 'Maria M.', city: 'Wien', text: 'Ausgezeichnete Qualität! Die Fliegengitter passen perfekt und der Service war hervorragend.' },
+        { name: 'Thomas K.', city: 'Graz', text: 'Schnelle Lieferung und professionelle Montage. Sehr empfehlenswert für jeden, der hochwertige Insektenschutzlösungen sucht.' },
+        { name: 'Anna S.', city: 'Linz', text: 'Professioneller Service von Anfang bis Ende. Die Beratung war kostenlos und das Angebot transparent.' },
       ],
     },
     trust: {
@@ -279,12 +278,12 @@ export const translations: Record<Language, Translations> = {
     },
     hero: {
       title: 'Fliegengitter Fenster - Kalite & Ustalık',
-      subtitle: 'Avusturya sineklik ve plise sineklik lideri. Avusturya plise perde ve tüm sineklik çözümleri için en kaliteli hizmet. Österreich Fliegengitter ve Insektenschutz uzmanıyız. Pencereler, kapılar ve balkonlar için ölçüye göre üretilen sistemler. En yüksek kalite, uzun ömürlü malzemeler ve Avrupa genelinde profesyonel montaj. Evinizi etkili bir şekilde böceklerden koruyun.',
+      subtitle: 'Avusturya sineklik ve plise sineklik lideri. Avusturya plise perde ve tüm sineklik çözümleri için en kaliteli hizmet. Österreich Fliegengitter ve Insektenschutz uzmanıyız. Pencereler, kapılar ve balkonlar için ölçüye göre üretilen sistemler. En yüksek kalite, uzun ömürlü malzemeler ve Avrupa genelinde profesyonel montaj. Evinizi etkili bir şekilde böceklerden koruyun ve taze havanın tadını çıkarın.',
       cta: 'Ücretsiz Teklif Alın',
     },
     products: {
       title: 'Ürünlerimiz',
-      subtitle: 'Her ihtiyaç için yüksek kaliteli sineklik çözümleri. Basit sinekliklerden gelişmiş perde sistemlerine kadar - eviniz için uygun çözümü sunuyoruz. Avusturya sineklik, plise sineklik, jaluzi ve zip perde için lider çözümler. Pencereler, kapılar, balkonlar ve teraslar için ölçüye göre üretilen sistemler.',
+      subtitle: 'Her ihtiyaç için yüksek kaliteli sineklik çözümleri. Basit sinekliklerden gelişmiş perde sistemlerine kadar - eviniz için uygun çözümü sunuyoruz. Avusturya sineklik, plise sineklik, jaluzi ve zip perde için lider çözümler. Pencereler, kapılar, balkonlar ve teraslar için ölçüye göre üretilen sistemler. Mükemmel uyum için ölçüye göre üretilen çözümler. Hava koşullarına dayanıklı, uzun ömürlü ve bakım kolaylığı ile yıllarca kullanım.',
       flyscreen: 'Sineklik',
       plissee: 'Plise',
       plisseeCurtain: 'Plise Perde',
@@ -295,7 +294,7 @@ export const translations: Record<Language, Translations> = {
     },
     about: {
       title: 'Neden Biz?',
-      description: 'Sektörde 15 yılı aşkın deneyimimizle, Avusturya ve tüm Avrupa\'daki en güvenilir sineklik çözümleri ortağınızız. Avusturya sineklik ve plise sineklik lideri. Pencereler, kapılar, balkonlar ve teraslar için ölçüye göre üretilen çözümler. AB üretiminden gelen premium kalite ve profesyonel montaj hizmeti.',
+      description: 'Sektörde 15 yılı aşkın deneyimimizle, Avusturya ve tüm Avrupa\'daki en güvenilir sineklik çözümleri ortağınızız. Avusturya sineklik ve plise sineklik lideri. Pencereler, kapılar, balkonlar ve teraslar için ölçüye göre üretilen çözümler. AB üretiminden gelen premium kalite ve profesyonel montaj hizmeti. Ücretsiz danışmanlık, ücretsiz ölçüm ve kapsamlı garanti sunuyoruz. Deneyimli ekibimiz gün boyu size hizmet vermek için hazır.',
       experience: '15+ Yıl Deneyim',
       countries: '6+ Ülke',
       quality: 'Premium Kalite',

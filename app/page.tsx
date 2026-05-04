@@ -224,15 +224,15 @@ export default function Home() {
           
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {[
-              { icon: '✓', title: 'Maßgefertigt', desc: 'Jedes Produkt wird nach Ihren genauen Maßen angefertigt für perfekte Passform.' },
-              { icon: '✓', title: 'Premium Qualität', desc: 'Hochwertige Materialien aus EU-Produktion für maximale Langlebigkeit.' },
-              { icon: '✓', title: 'Professionelle Montage', desc: 'Erfahrene Monteure sorgen für fachgerechte Installation in ganz Österreich.' },
-              { icon: '✓', title: 'Europaweite Lieferung', desc: 'Schnelle und zuverlässige Lieferung in 6 europäische Länder.' },
-              { icon: '✓', title: 'Umfassende Garantie', desc: 'Bis zu 10 Jahre Garantie auf ausgewählte Produkte und Komponenten.' },
-              { icon: '✓', title: 'Kostenlose Beratung', desc: 'Persönliche Beratung und kostenlose Messung vor Ort ohne Verpflichtung.' },
-              { icon: '✓', title: 'Wetterfest', desc: 'Alle Produkte sind wetterfest und für ganzjährigen Einsatz geeignet.' },
-              { icon: '✓', title: 'Pflegeleicht', desc: 'Einfache Reinigung und minimale Wartung für langanhaltende Schönheit.' },
-              { icon: '✓', title: 'Vielseitig', desc: 'Lösungen für Fenster, Türen, Balkone und Terrassen.' },
+              { icon: '✓', title: 'Maßgefertigt', desc: 'Jedes Produkt wird nach Ihren genauen Maßen angefertigt für perfekte Passform. Wir messen alle Fenster und Türen vor Ort und erstellen maßgeschneiderte Lösungen, die exakt passen.' },
+              { icon: '✓', title: 'Premium Qualität', desc: 'Hochwertige Materialien aus EU-Produktion für maximale Langlebigkeit. Alle Materialien erfüllen die strengsten EU-Qualitätsstandards und sind für den ganzjährigen Einsatz geeignet.' },
+              { icon: '✓', title: 'Professionelle Montage', desc: 'Erfahrene Monteure sorgen für fachgerechte Installation in ganz Österreich. Unser Team ist spezialisiert auf alle Arten von Insektenschutzsystemen und garantiert perfekte Montage.' },
+              { icon: '✓', title: 'Europaweite Lieferung', desc: 'Schnelle und zuverlässige Lieferung in 6 europäische Länder. Wir arbeiten mit zuverlässigen Versandpartnern zusammen, um pünktliche Lieferung zu gewährleisten.' },
+              { icon: '✓', title: 'Umfassende Garantie', desc: 'Bis zu 10 Jahre Garantie auf ausgewählte Produkte und Komponenten. Wir bieten auch 2 Jahre Garantie auf die Montageleistung für Ihre Sicherheit.' },
+              { icon: '✓', title: 'Kostenlose Beratung', desc: 'Persönliche Beratung und kostenlose Messung vor Ort ohne Verpflichtung. Unser Team kommt gerne zu Ihnen vorbei, berät Sie und erstellt ein individuelles Angebot.' },
+              { icon: '✓', title: 'Wetterfest', desc: 'Alle Produkte sind wetterfest und für ganzjährigen Einsatz geeignet. Unsere Systeme sind UV-beständig, wasserdicht und können extreme Wetterbedingungen standhalten.' },
+              { icon: '✓', title: 'Pflegeleicht', desc: 'Einfache Reinigung und minimale Wartung für langanhaltende Schönheit. Unsere Materialien sind schmutzabweisend und lassen sich einfach mit Wasser und milder Seife reinigen.' },
+              { icon: '✓', title: 'Vielseitig', desc: 'Lösungen für Fenster, Türen, Balkone und Terrassen. Wir bieten maßgeschneiderte Lösungen für jede Art von Öffnung, von kleinen Fenstern bis zu großen Terrassentüren.' },
             ].map((item, index) => (
               <div key={index} className="group bg-white rounded-3xl p-8 shadow-lg hover:shadow-2xl transition-all hover:-translate-y-2 border-2 border-transparent hover:border-primary">
                 <div className="w-16 h-16 bg-gradient-to-br from-primary to-primary/80 rounded-2xl flex items-center justify-center mx-auto mb-6 group-hover:rotate-12 transition-transform shadow-lg">
