@@ -567,7 +567,7 @@ export default function Home() {
       </section>
 
       <Footer lang={lang} />
-      <MobileFixedButtons lang={lang} />
+      <MobileFixedButtons />
       <DesktopFloatingWhatsApp />
     </div>
   );
