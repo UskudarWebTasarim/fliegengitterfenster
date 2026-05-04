@@ -1,5 +1,112 @@
 export type Language = 'de' | 'tr';
 
+export type Translations = {
+  header: {
+    home: string;
+    products: string;
+    about: string;
+    contact: string;
+  };
+  hero: {
+    title: string;
+    subtitle: string;
+    cta: string;
+  };
+  products: {
+    title: string;
+    subtitle: string;
+    flyscreen: string;
+    plissee: string;
+    plisseeCurtain: string;
+    blinds: string;
+    honeycomb: string;
+    duette: string;
+    zip: string;
+  };
+  about: {
+    title: string;
+    description: string;
+    experience: string;
+    countries: string;
+    quality: string;
+    support: string;
+    advantagesTitle: string;
+    advantages: string[];
+  };
+  process: {
+    title: string;
+    subtitle: string;
+    steps: Array<{ title: string; desc: string }>;
+  };
+  features: {
+    title: string;
+    subtitle: string;
+    items: Array<{ title: string; desc: string }>;
+  };
+  quality: {
+    title: string;
+    description: string;
+    table: {
+      headers: string[];
+      rows: string[][];
+    };
+  };
+  examples: {
+    title: string;
+    subtitle: string;
+    items: Array<{ title: string; desc: string }>;
+  };
+  testimonials: {
+    title: string;
+    subtitle: string;
+    items: Array<{ name: string; city: string; text: string }>;
+  };
+  trust: {
+    title: string;
+    items: Array<{ title: string; desc: string }>;
+  };
+  targetMarket: {
+    title: string;
+    subtitle: string;
+    markets: Array<{ country: string; cities: string }>;
+  };
+  serviceAreas: {
+    title: string;
+    description: string;
+    subtitle: string;
+  };
+  installation: {
+    title: string;
+    subtitle: string;
+    items: Array<{ title: string; desc: string }>;
+  };
+  warranty: {
+    title: string;
+    subtitle: string;
+    items: Array<{ title: string; desc: string }>;
+  };
+  faq: {
+    title: string;
+    subtitle: string;
+    faqs: Array<{ q: string; a: string }>;
+  };
+  cta: {
+    title: string;
+    description: string;
+    whatsapp: string;
+    call: string;
+  };
+  popup: {
+    title: string;
+  };
+  contact: {
+    phone: string;
+    whatsapp: string;
+    email: string;
+    address: string;
+  };
+};
+
 export const translations: Record<Language, Translations> = {
   de: {
     header: {
@@ -314,5 +421,3 @@ export const translations: Record<Language, Translations> = {
     },
   },
 };
-
-export type Translations = typeof translations.de;
