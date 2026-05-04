@@ -28,6 +28,13 @@ npm run dev
 
 Coming soon...
 
+## 🔧 Development
+
+```bash
+npm run build
+npm start
+```
+
 ## 🤝 Partner
 
 Dieses Projekt wird von [Fenetre Systems](https://www.fenetresystems.com) entwickelt und betreut.
