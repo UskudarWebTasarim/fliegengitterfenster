@@ -265,7 +265,7 @@ export const translations: Record<Language, Translations> = {
       call: 'Anrufen',
     },
     popup: {
-      title: 'Web Sitesine Ücretsiz Sahip Olun!',
+      title: 'Kostenlose Website!',
     },
     contact: {
       phone: '+90 540 336 3873',
@@ -282,8 +282,8 @@ export const translations: Record<Language, Translations> = {
       contact: 'İletişim',
     },
     hero: {
-      title: 'Fliegengitter Fenster - Kalite & Ustalık',
-      subtitle: 'Avusturya sineklik ve plise sineklik lideri. Avusturya plise perde ve tüm sineklik çözümleri için en kaliteli hizmet. Österreich Fliegengitter ve Insektenschutz uzmanıyız. Pencereler, kapılar ve balkonlar için ölçüye göre üretilen sistemler. En yüksek kalite, uzun ömürlü malzemeler ve Avrupa genelinde profesyonel montaj. Evinizi etkili bir şekilde böceklerden koruyun ve taze havanın tadını çıkarın.',
+      title: 'Sineklik Pencereleri - Kalite & Ustalık',
+      subtitle: 'Avusturya sineklik ve plise sineklik lideri. Avusturya plise perde ve tüm sineklik çözümleri için en kaliteli hizmet. Avusturya sineklik ve böcek koruma uzmanıyız. Pencereler, kapılar ve balkonlar için ölçüye göre üretilen sistemler. En yüksek kalite, uzun ömürlü malzemeler ve Avrupa genelinde profesyonel montaj. Evinizi etkili bir şekilde böceklerden koruyun ve taze havanın tadını çıkarın.',
       cta: 'Ücretsiz Teklif Alın',
     },
     products: {
