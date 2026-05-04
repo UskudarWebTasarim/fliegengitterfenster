@@ -116,9 +116,9 @@ export const translations: Record<Language, Translations> = {
       contact: 'Kontakt',
     },
     hero: {
-      title: 'Fliegengitter Fenster',
-      subtitle: 'Premium Insektenschutz aus Österreich. Maßgefertigte Lösungen für Fenster, Türen und Balkone. Höchste Qualität, langlebige Materialien und professionelle Montage in ganz Europa. Schützen Sie Ihr Zuhause effektiv vor Insekten.',
-      cta: 'Angebot Anfordern',
+      title: 'Fliegengitter Fenster - Qualität & Meisterschaft',
+      subtitle: 'Maßgefertigte Fliegengitter und Insektenschutzlösungen für Ihr Zuhause. Höchste Qualität aus Österreich mit professioneller Montage. Österreich Fliegengitter und Insektenschutz Experte.',
+      cta: 'Kostenloses Angebot Anfordern',
     },
     products: {
       title: 'Unsere Produkte',
@@ -272,9 +272,9 @@ export const translations: Record<Language, Translations> = {
       contact: 'İletişim',
     },
     hero: {
-      title: 'Fliegengitter Fenster',
-      subtitle: 'Avusturya kalitesi. Eviniz için özel üretilmiş sineklik çözümleri. Pencereler, kapılar ve balkonlar için ölçüye göre üretilen sistemler. En yüksek kalite, uzun ömürlü malzemeler ve Avrupa genelinde profesyonel montaj. Evinizi etkili bir şekilde böceklerden koruyun.',
-      cta: 'Teklif Alın',
+      title: 'Fliegengitter Fenster - Kalite & Ustalık',
+      subtitle: 'Avusturya sineklik ve plise sineklik lideri. Avusturya plise perde ve tüm sineklik çözümleri için en kaliteli hizmet. Österreich Fliegengitter ve Insektenschutz uzmanıyız. Pencereler, kapılar ve balkonlar için ölçüye göre üretilen sistemler. En yüksek kalite, uzun ömürlü malzemeler ve Avrupa genelinde profesyonel montaj. Evinizi etkili bir şekilde böceklerden koruyun.',
+      cta: 'Ücretsiz Teklif Alın',
     },
     products: {
       title: 'Ürünlerimiz',

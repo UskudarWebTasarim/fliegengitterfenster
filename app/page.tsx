@@ -213,6 +213,39 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Advantages List Section */}
+      <section id="advantages" className="py-24 bg-gradient-to-br from-primary/10 to-white relative overflow-hidden">
+        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-16">
+            <span className="inline-block px-4 py-2 bg-primary rounded-full text-white font-semibold text-sm mb-4">Vorteile</span>
+            <h2 className="text-4xl md:text-5xl font-bold text-secondary mb-4">Warum Wählen Sie Uns?</h2>
+            <p className="text-xl text-gray-600 max-w-2xl mx-auto">Entdecken Sie die Vorteile unserer Insektenschutzlösungen.</p>
+          </div>
+          
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+            {[
+              { icon: '✓', title: 'Maßgefertigt', desc: 'Jedes Produkt wird nach Ihren genauen Maßen angefertigt für perfekte Passform.' },
+              { icon: '✓', title: 'Premium Qualität', desc: 'Hochwertige Materialien aus EU-Produktion für maximale Langlebigkeit.' },
+              { icon: '✓', title: 'Professionelle Montage', desc: 'Erfahrene Monteure sorgen für fachgerechte Installation in ganz Österreich.' },
+              { icon: '✓', title: 'Europaweite Lieferung', desc: 'Schnelle und zuverlässige Lieferung in 6 europäische Länder.' },
+              { icon: '✓', title: 'Umfassende Garantie', desc: 'Bis zu 10 Jahre Garantie auf ausgewählte Produkte und Komponenten.' },
+              { icon: '✓', title: 'Kostenlose Beratung', desc: 'Persönliche Beratung und kostenlose Messung vor Ort ohne Verpflichtung.' },
+              { icon: '✓', title: 'Wetterfest', desc: 'Alle Produkte sind wetterfest und für ganzjährigen Einsatz geeignet.' },
+              { icon: '✓', title: 'Pflegeleicht', desc: 'Einfache Reinigung und minimale Wartung für langanhaltende Schönheit.' },
+              { icon: '✓', title: 'Vielseitig', desc: 'Lösungen für Fenster, Türen, Balkone und Terrassen.' },
+            ].map((item, index) => (
+              <div key={index} className="group bg-white rounded-3xl p-8 shadow-lg hover:shadow-2xl transition-all hover:-translate-y-2 border-2 border-transparent hover:border-primary">
+                <div className="w-16 h-16 bg-gradient-to-br from-primary to-primary/80 rounded-2xl flex items-center justify-center mx-auto mb-6 group-hover:rotate-12 transition-transform shadow-lg">
+                  <span className="text-3xl font-bold text-white">{item.icon}</span>
+                </div>
+                <h3 className="font-bold text-xl text-secondary mb-3 text-center">{item.title}</h3>
+                <p className="text-gray-600 text-center">{item.desc}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* Process Section */}
       <section id="process" className="py-24 bg-gradient-to-b from-white via-green-50 to-white relative overflow-hidden">
         <div className="absolute inset-0 opacity-5">
@@ -490,6 +523,74 @@ export default function Home() {
                 <p className="text-gray-600 text-center">{item.desc}</p>
               </div>
             ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Pricing Table Section */}
+      <section id="pricing" className="py-24 bg-gradient-to-b from-white via-primary/5 to-white relative overflow-hidden">
+        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-16">
+            <span className="inline-block px-4 py-2 bg-primary/10 rounded-full text-primary font-semibold text-sm mb-4">Preise</span>
+            <h2 className="text-4xl md:text-5xl font-bold text-secondary mb-4">Preisübersicht</h2>
+            <p className="text-xl text-gray-600 max-w-2xl mx-auto">Transparente Preise für alle Produkte. Keine versteckten Kosten.</p>
+          </div>
+          
+          <div className="bg-white rounded-3xl shadow-2xl overflow-hidden border-2 border-gray-100">
+            <table className="w-full">
+              <thead className="bg-gradient-to-r from-primary to-primary/90">
+                <tr>
+                  <th className="px-8 py-6 text-left text-white font-bold text-lg">Produkt</th>
+                  <th className="px-8 py-6 text-center text-white font-bold text-lg">Preis pro m²</th>
+                  <th className="px-8 py-6 text-center text-white font-bold text-lg">Montage</th>
+                  <th className="px-8 py-6 text-center text-white font-bold text-lg">Garantie</th>
+                </tr>
+              </thead>
+              <tbody className="divide-y divide-gray-100">
+                <tr className="hover:bg-gray-50 transition-colors">
+                  <td className="px-8 py-6">
+                    <div className="font-bold text-secondary text-lg">Fliegengitter</div>
+                    <div className="text-gray-500 text-sm">Spannrahmen</div>
+                  </td>
+                  <td className="px-8 py-6 text-center font-semibold text-secondary">€25 - €35</td>
+                  <td className="px-8 py-6 text-center text-gray-600">Inklusive</td>
+                  <td className="px-8 py-6 text-center text-gray-600">5 Jahre</td>
+                </tr>
+                <tr className="hover:bg-gray-50 transition-colors">
+                  <td className="px-8 py-6">
+                    <div className="font-bold text-secondary text-lg">Plissee Rollos</div>
+                    <div className="text-gray-500 text-sm">Fenster & Balkone</div>
+                  </td>
+                  <td className="px-8 py-6 text-center font-semibold text-secondary">€35 - €55</td>
+                  <td className="px-8 py-6 text-center text-gray-600">Inklusive</td>
+                  <td className="px-8 py-6 text-center text-gray-600">3 Jahre</td>
+                </tr>
+                <tr className="hover:bg-gray-50 transition-colors">
+                  <td className="px-8 py-6">
+                    <div className="font-bold text-secondary text-lg">Jalousien</div>
+                    <div className="text-gray-500 text-sm">Aluminium</div>
+                  </td>
+                  <td className="px-8 py-6 text-center font-semibold text-secondary">€45 - €65</td>
+                  <td className="px-8 py-6 text-center text-gray-600">Inklusive</td>
+                  <td className="px-8 py-6 text-center text-gray-600">5 Jahre</td>
+                </tr>
+                <tr className="hover:bg-gray-50 transition-colors">
+                  <td className="px-8 py-6">
+                    <div className="font-bold text-secondary text-lg">Zip Rollos</div>
+                    <div className="text-gray-500 text-sm">Insektenschutz</div>
+                  </td>
+                  <td className="px-8 py-6 text-center font-semibold text-secondary">€55 - €75</td>
+                  <td className="px-8 py-6 text-center text-gray-600">Inklusive</td>
+                  <td className="px-8 py-6 text-center text-gray-600">5 Jahre</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          
+          <div className="mt-12 text-center">
+            <p className="text-lg text-gray-600 font-medium bg-white inline-block px-8 py-4 rounded-full shadow-md">
+              * Alle Preise inklusive MwSt. und professioneller Montage. Kostenlose Messung und Beratung.
+            </p>
           </div>
         </div>
       </section>
